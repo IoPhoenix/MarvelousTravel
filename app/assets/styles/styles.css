@@ -1,0 +1,15 @@
+$mainColor: #2f5572;
+
+body {
+    color: $mainColor;
+    padding: 20px;
+    margin: 10px;
+    columns: 300px 2;
+}
+
+.box {
+    a {
+        display: block;
+        padding: 20px;
+    }
+}

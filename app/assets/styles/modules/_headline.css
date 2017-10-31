@@ -45,7 +45,7 @@
       margin-bottom: 1.6em;
     }
 
-    @mixin atSmall {
+    @mixin atMedium {
       &--no-t-margin {
           margin-top: 0;
       }

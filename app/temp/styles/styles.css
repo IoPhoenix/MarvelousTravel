@@ -657,7 +657,7 @@ a {
       margin-bottom: 1.6em;
     }
 
-@media (min-width: 530px) {
+@media (min-width: 800px) {
       .headline--no-t-margin {
           margin-top: 0;
       }

@@ -1,48 +1,57 @@
+
 .headline {
     font-size: 1.9rem;
     font-weight: 300;
     color: $mainBlue;
+  
+    @mixin atSmall {
+      font-size: 2.875rem;
+    }
+  
+    &--centered {
+      text-align: center;
+    }
+  
+    &--orange {
+      color: $mainOrange;
+    }
+  
+    &--small {
+      font-size: 1.2rem;
+      @mixin atSmall {
+        font-size: 1.875rem;
+      }
+    }
+  
+    &--narrow {
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    &--light {
+      font-weight: 100;
+    }
+  
+    strong {
+      font-weight: 400;
+    }
+  
+    &--b-margin-small {
+      margin-bottom: .5em;
+    }
+  
+    &--b-margin-large {
+      margin-bottom: 1.6em;
+    }
 
     @mixin atSmall {
-        font-size: 2.875rem;        
+      &--no-t-margin {
+          margin-top: 0;
+      }
     }
 
-    &--centered {
-        text-align: center;
+    &--no-b-margin {
+      margin-bottom: 0;
     }
-
-    &--orange {
-        color: $mainOrange;
-    }
-
-    &--small {
-        font-size: 1.2rem;
-
-        @mixin atSmall {
-            font-size: 1.875rem;;        
-        }
-    }
-
-    &--narrow {
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    &--narrow {
-        font-weight: 100;
-    }
-
-    strong {
-        font-weight: 400;
-    }
-
-    &--headline--b-margin-large {
-        /* em is relative to font-size itself  */
-        margin-bottom: 1.6em;
-    }
-
-    &--headline--b-margin-small {
-        margin-bottom: .5em;
-    }
-}
+  }

@@ -1,15 +1,5 @@
-$mainColor: #2f5572;
-
-body {
-    color: $mainColor;
-    padding: 20px;
-    margin: 10px;
-    columns: 300px 2;
-}
-
-.box {
-    a {
-        display: block;
-        padding: 20px;
-    }
-}
+@import 'normalize.css';
+@import 'base/_variables';
+@import 'base/_global';
+@import 'modules/_large-hero';
+@import 'modules/_btn';

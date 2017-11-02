@@ -895,14 +895,12 @@ a {
     font-size: 2.55rem;
     font-weight: 300;
     text-align: center;
-  
   }
 
 @media (min-width: 530px) {
 
 .section-title {
       font-size: 3.75rem
-  
   }
     }
 
@@ -925,7 +923,7 @@ a {
 
 .section-title__icon {
         position: relative;
-        top: 8px;
+        top: 9px;
         margin-right: .5rem;
         margin-left: 0;
         margin-bottom: 0;
@@ -936,44 +934,42 @@ a {
 .feature-item {
     position: relative;
     padding-bottom: 2.5rem;
-}
+  }
 
 @media (min-width: 530px) {
 
 .feature-item {
-        padding-left: 94px
-}
+      padding-left: 94px
+  }
     }
 
 .feature-item__icon {
-        display: block;
-        margin: 0 auto;
+      display: block;
+      margin: 0 auto;
     }
 
 @media (min-width: 530px) {
 
 .feature-item__icon {
-            position: absolute;    
-            left: 0
+        position: absolute;
+        left: 0
     }
     }
 
 .feature-item__title {
-        font-size: 1.6rem;
-        font-weight: 300;
-        margin-bottom: .8rem;
-        margin-top: .7em;
-        text-align: center;
+      font-size: 1.6rem;
+      font-weight: 300;
+      margin-top: .7em;
+      margin-bottom: .8rem;
+      text-align: center;
     }
 
 @media (min-width: 530px) {
 
 .feature-item__title {
-            text-align: left;
-            margin-top: 1em;            
-            font-size: 1.875rem;
-            font-weight: 300;
-            margin-bottom: .8rem
+        text-align: left;
+        margin-top: 1em;
+        font-size: 1.875rem
     }
     }
 
@@ -1020,4 +1016,80 @@ a {
       font-weight: 400;
       font-size: 0.9375rem;
       margin: .25rem 0 1rem 0;
+    }
+
+.icon {
+        background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+    }
+
+.icon--clear-view-escapes {
+        width: 142.4px;
+        height: 59.53px;
+        background-position: 0 0;
+    }
+
+.icon--comment {
+        width: 64px;
+        height: 64px;
+        background-position: 99.70443349753694% 0;
+    }
+
+.icon--facebook {
+        width: 21.23px;
+        height: 42.01px;
+        background-position: 26.040607071652357% 45.795830448496034%;
+    }
+
+.icon--fire {
+        width: 56px;
+        height: 64px;
+        background-position: 0 99.56481481481481%;
+    }
+
+.icon--globe {
+        width: 64px;
+        height: 64px;
+        background-position: 27.586206896551722% 99.56481481481481%;
+    }
+
+.icon--instagram {
+        width: 42.01px;
+        height: 42.01px;
+        background-position: 63.2917018534157% 49.234556504346486%;
+    }
+
+.icon--mail {
+        width: 64px;
+        height: 48px;
+        background-position: 0 48.00806451612903%;
+    }
+
+.icon--rain {
+        width: 64px;
+        height: 64px;
+        background-position: 99.70443349753694% 59.25925925925926%;
+    }
+
+.icon--star {
+        width: 64px;
+        height: 64px;
+        background-position: 59.11330049261084% 99.56481481481481%;
+    }
+
+.icon--twitter {
+        width: 51.78px;
+        height: 42.06px;
+        background-position: 94.04330452560171% 98.50700323226104%;
+    }
+
+.icon--wifi {
+        width: 60px;
+        height: 64px;
+        background-position: 68.79227053140097% 0;
+    }
+
+.icon--youtube {
+        width: 34.75px;
+        height: 42px;
+        background-position: 36.69752421959096% 45.792307692307695%;
     }

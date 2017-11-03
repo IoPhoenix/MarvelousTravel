@@ -10421,10 +10421,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var RevealOnScroll = function () {
-    function RevealOnScroll() {
+    function RevealOnScroll(els, offset) {
         _classCallCheck(this, RevealOnScroll);
 
-        this.itemsToReveal = (0, _jquery2.default)('.feature-item');
+        this.itemsToReveal = els;
+        this.offsetPercentage = offset;
         this.hideInitially();
         this.createWaypoints();
     }
@@ -10437,6 +10438,7 @@ var RevealOnScroll = function () {
     }, {
         key: 'createWaypoints',
         value: function createWaypoints() {
+            var that = this;
             this.itemsToReveal.each(function () {
                 var currentItem = this;
                 new Waypoint({
@@ -10444,7 +10446,7 @@ var RevealOnScroll = function () {
                     handler: function handler() {
                         (0, _jquery2.default)(currentItem).addClass('reveal-item--is-visible');
                     },
-                    offset: "85%"
+                    offset: that.offsetPercentage
                 });
             });
         }

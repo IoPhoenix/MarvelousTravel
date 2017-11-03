@@ -1,16 +1,15 @@
-This is a travel website created from the design template. 
+T# his is a travel website created from the design template. 
 
 Tools used:
 
-*npm
-*gulp
-*PostCSS
-*BEM principles
-*webpack
-*Babel
+* npm
+* gulp
+* PostCSS
+* webpack
+* Babel
+* BEM principles
 
 Featuring:
-*responsove images
-*smooth scrolling
-*mobile-first, responsive design
-*reveal-on-scroll sections
+* smooth scrolling
+* mobile-first, responsive design
+* reveal-on-scroll sections

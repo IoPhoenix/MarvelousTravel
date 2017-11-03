@@ -4,6 +4,8 @@
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+    transition: background-color .5s ease-out;
+
     &--orange {
         background-color: $mainOrange;
     }
@@ -13,5 +15,9 @@
         @mixin atSmall {
             font-size: 1.25rem;
         }
+    }
+
+    .site-header--dark & {
+        background-color: $mainOrange;
     }
 }

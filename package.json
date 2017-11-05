@@ -19,7 +19,7 @@
     "gulp": "3.9.1",
     "gulp-cssnano": "2.1.2",
     "gulp-imagemin": "3.3.0",
-    "gulp-modernizr": "1.0.0-alpha",
+    "gulp-modernizr": "^1.0.0-alpha",
     "gulp-postcss": "7.0.0",
     "gulp-rename": "1.2.2",
     "gulp-rev": "8.0.0",

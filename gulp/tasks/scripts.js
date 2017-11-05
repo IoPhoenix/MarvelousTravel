@@ -3,7 +3,7 @@ const gulp = require('gulp'),
 
 
 // start webpack bundle automatically
-gulp.task('scripts', function(callback) {
+gulp.task('scripts', ['modernizr'], function(callback) {
     webpack(require('../../webpack.config.js'), function(error, stats) {
         if (error) console.log(error.toString());
         console.log(stats.toString());

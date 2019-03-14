@@ -1,4 +1,4 @@
-// Modernizr can test browsers for support of different feature 
+// Modernizr will test browsers for support of different feature 
 
 const gulp = require('gulp'),
         modernizr = require('gulp-modernizr');

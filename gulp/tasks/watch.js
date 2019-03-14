@@ -2,8 +2,7 @@ const gulp = require('gulp'),
     watch = require('gulp-watch'),
     browserSync = require('browser-sync').create();
     
-
-// task to  
+ 
 gulp.task('watch', function() {
     
         browserSync.init({
@@ -38,4 +37,4 @@ gulp.task('watch', function() {
 
     gulp.task('scriptsRefresh', ['scripts'], function() {
         browserSync.reload();
-    })
+    });
